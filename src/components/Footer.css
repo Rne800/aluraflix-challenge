@@ -1,0 +1,12 @@
+.footer {
+    background-color: #1c1c1c;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  .footer .logo {
+    font-size: 1.5em;
+    color: #009bdf;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000dd;
+}
+
+.banner {
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  padding: 2em;
+  color: white;
+  text-align: center;
+}
+
+.video-card {
+  border: 1px solid #ddd;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.video-card img {
+  max-width: 300px;
+  height: auto;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

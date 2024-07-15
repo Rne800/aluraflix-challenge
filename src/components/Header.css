@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 1em 2em;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    color: #009bdf;
+    font-weight: bold;
+
+  }
+  
+.logo-image {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+  nav {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .nav-button {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border: 2px solid #009bdf;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #009bdf;
+    color: black;
+  }
